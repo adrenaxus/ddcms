@@ -48,11 +48,13 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
+                
+                    @if(Auth::user())
                     <li class="dropdown">
-
                         <a href="{{ url('/textarea') }}" >Textareas</a>
-                        
                     </li>
+                    @endif
+                    
                 </ul>
 
                 <!-- Right Side Of Navbar -->

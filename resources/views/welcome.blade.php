@@ -12,12 +12,6 @@
                     Application Landing page    
                     
                 </div>
-                
-                <div class="well">
-                                
-                    <h2>WELL TITLE</h2>
-                
-                </div>
 
             </div>
         </div>

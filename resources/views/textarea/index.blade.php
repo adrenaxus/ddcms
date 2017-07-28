@@ -41,6 +41,8 @@
 
             <th>ID</th>
             <th>Name</th>
+            <th>Operations</th>
+            <th>PHP Include code</th>
 
         </tr>
 
@@ -64,6 +66,13 @@
     
                 {!! Form::close() !!}
     
+            </td>
+            
+            <td>
+                <?php
+                    $code = htmlentities("<?php include 'http://linkpaste.org/ddcms/public/textarea/$textarea->id' ?>");
+                ?>            
+                <pre>{{ $code }}</pre>
             </td>
     
         </tr>
